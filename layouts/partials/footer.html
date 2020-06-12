@@ -1,14 +1,15 @@
 <footer class="footer">
+  <div xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">This work by <a rel="cc:attributionURL" href="https://alexmufatti.it"><span rel="cc:attributionName">Alex Mufatti</span></a>CC BY-SA 4.0<a href="https://creativecommons.org/licenses/by-sa/4.0"><img style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a></div>
   <div class="footer__inner">
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">
         <span>{{ $.Site.Copyright | safeHTML }}</span>
     {{else}}
-      <div class="copyright">
+      <div class="copyright copyright--user">
         <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
     {{end}}
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
-      </div>
+        <span>:: Theme based on "Terminal" by <a href="https://twitter.com/panr">panr</a></span>
+        </div>
   </div>
 </footer>
 

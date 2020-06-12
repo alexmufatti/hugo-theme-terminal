@@ -15,6 +15,19 @@
       flex-direction: column;
     }
   }
+  .license-text {
+    display: flex;
+    justify-content: center;
+
+    img {
+      display: inline;
+    }
+
+    a {
+      margin: 0 10px;
+    }
+
+}
 
   a {
     color: inherit;
