@@ -274,3 +274,11 @@ hr {
 .hidden {
   display: none;
 }
+
+.fa-square {
+  color: var(--accent);
+}
+
+.fa-inverse {
+  color: #000 !important;
+}
