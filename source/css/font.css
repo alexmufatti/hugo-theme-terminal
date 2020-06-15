@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Fira Code';
+  font-family: 'Fira Sans';
   font-style:  normal;
   font-weight: 400;
-  src: url("../fonts/FiraCode-Regular.woff") format("woff");
+  src: url("../fonts/FiraSans-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Fira Code';
+  font-family: 'Fira Sans';
   font-style:  normal;
   font-weight: 800;
-  src: url("../fonts/FiraCode-Bold.woff") format("woff");
+  src: url("../fonts/FiraSans-Bold.woff") format("woff");
 }
